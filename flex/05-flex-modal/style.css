@@ -20,7 +20,38 @@ body {
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  padding: 16px;
+ 
 }
+
+.left {
+background: white;
+justify-content: center;
+margin-right: 8px;
+}
+
+.right {
+  background: white;
+
+  }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 8px;
+  align-items: center;
+}
+
+
+.right-bottom {
+  display: flex;
+  margin-top: 8px;
+  gap: 4px;
+  justify-content: flex-start;
+}
+
+
 
 .icon {
   color: royalblue;
@@ -43,7 +74,7 @@ body {
   font-size: 16px;
   height: 24px;
   width: 24px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
   justify-content: center;
 }
